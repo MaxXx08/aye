@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #90ab61;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.playbutton{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: white;
+    border: none;
+    transition: .2s;
+}
+.playbutton:hover{
+    background-color: grey;
+    color:white;
+}
+::placeholder{
+    color: black;
+}
+.name{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    outline: none;
+}
